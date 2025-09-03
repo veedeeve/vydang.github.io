@@ -3,8 +3,8 @@ This project demonstrates a complete workflow for **de novo genome assembly and 
 
 ## Tools Used
 - **Data Retrieval:** `sra-tools`
-- **Quality Control:** 'Trimmomatic'
-- **Quality Check:** `FastQC`, 'QUAST'
+- **Quality Control:** `Trimmomatic`
+- **Quality Check:** `FastQC`, `QUAST`
 - **Assembly:** `SPAdes`
 - **Annotation:** `Prokka`
 - **Functional annotation:** `BLASTp`
