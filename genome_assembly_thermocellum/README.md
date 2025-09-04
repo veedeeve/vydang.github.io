@@ -1,6 +1,7 @@
 # Genome Assembly of Clostridium Thermocellum
 This project demonstrates a complete workflow for **de novo genome assembly and annotation** of *Clostridium thermocellum* using publicly available sequencing data (SRA: SRR15202685). The pipeline includes **quality control, genome assembly, protein prediction, and functional annotation**.
 
+## Results 
 **Assembly Statistics (Spades_Careful):**
 - N50:  `37,784 kb`
 - Total assembly length: `3,470,289`
