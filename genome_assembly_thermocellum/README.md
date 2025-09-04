@@ -9,3 +9,6 @@ This project demonstrates a complete workflow for **de novo genome assembly and 
 - **Annotation:** `Prokka`
 - **Functional annotation:** `BLASTp`
 - **Data processing:** `awk`, `pandas`
+
+## Workflow
+<img width="685" height="355" alt="genome_assembly_workflow" src="https://github.com/user-attachments/assets/0e74e709-0b21-4726-ad46-3692a1022880" />
