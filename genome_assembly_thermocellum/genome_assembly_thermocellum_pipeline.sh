@@ -68,7 +68,7 @@ wget ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/c
 gunzip uniprot_sprot.fasta.gz
 cd..
 makeblastdb -in swissprot/uniprot_sprot.fasta -dbtype prot -out swissprot/swissprot_db
-blastp -query prokka_annotation/thermocellum.faa -db swissprot/swissprot_db -out thermocellum_blastp.out -evalue 1e-5 -outfmt 6 -num_threads 4
+blastp -query prokka_annotation/thermocellum.faa -db swissprot/swissprot_db -out blastp_results.out -evalue 1e-5 -outfmt 6 -num_threads 4
 
 
 
