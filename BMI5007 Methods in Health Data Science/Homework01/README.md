@@ -6,6 +6,7 @@ Created 2 functions -
 ## Results
 | FileName | Total Words | MostFreqWord | FreqWordCount |
 | :-------: | :------: | :-------: | :-------: |
+| 18719013.txt | 312 | "and" | 15 |
 | 18941263.txt | 131 | "the" | 12 |
 | 18964660.txt | 222 | "of" | 20 |
 | 19771122.txt | 61 | "a" | 4 |
