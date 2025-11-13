@@ -6,7 +6,7 @@ Create a function to display the top 3 high frequency words within text files.
 | :-------: | :------: | :-------: | :-------: | :-------: | :-------: | :-------: |
 | 18719013.txt | 'and' | 15 | 'of' | 12 | 'quality' | 9 |
 | 18941263.txt | 'the' | 12 | 'of' | 10 | 'to' | 5 |
-| 18964660.txt | 'of' | 20 | 'the' | 14 | 'to | 'parameters' | 7|
+| 18964660.txt | 'of' | 20 | 'the' | 14 | | 'parameters' | 7|
 | 19771122.txt | 'a' | 4 | 'in' | 3 | 'of' | 3 |
 | 20405411.txt | 'the' | 7 | 'animal' | 5 | 'of' | 5 |
 | 23326248.txt | 'the' | 16 | 'of' | 8 | 'a' | 6 |
