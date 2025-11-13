@@ -1,6 +1,6 @@
 import os
 
-files = ["18941263.txt", "18941263.txt", "18964660.txt", "19771122.txt", "20405411.txt", 
+files = ["18719013.txt", "18941263.txt", "18964660.txt", "19771122.txt", "20405411.txt", 
          "23326248.txt", "23674598.txt", "23685357.txt", "23807877.txt", "23852273.txt" ]
 folder = "/Users/vydang/Documents/School/UTHealth Classes/FA22/BMI5007/Homeworks/hw01/medline/" 
 
