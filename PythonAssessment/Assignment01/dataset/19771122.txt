@@ -1,2 +1,0 @@
-Ultrashort-laser-pulse amplification in a XeF[C --> A] excimer amplifier 
-Tunable blue-green subpicosecond laser pulses have been amplified in an electron-beam-pumped XeF(C --> A) excimer amplifier Small-signal gains of 3.5% cm(-1) were measured using a 50-cm active gain length At output energy densities as high as 170 mJ/cm(2) only a small degree of saturation occurred resulting in a gain of 2.5% cm(-1) 
