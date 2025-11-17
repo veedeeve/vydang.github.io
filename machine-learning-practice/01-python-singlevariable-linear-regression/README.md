@@ -24,3 +24,10 @@ Where:
 ![Scatter Plot](images/ScatterPlot.png)
 ### &nbsp;&nbsp; Regression Line
 ![Regression Line](images/regressionline.png)
+
+## Model Summary
+- **Input Feature:** Area (square feet)
+- **Target Variable:** Price (USD)
+- **Model Type:** Single-variable linear regression
+- **Goal:** Fit a regression line that estimates house price based on area
+
