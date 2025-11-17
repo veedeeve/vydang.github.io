@@ -20,3 +20,7 @@ Where:
 - **b** = intercept  
 
 ## Visualization
+### &nbsp;&nbsp; ScatterPlot
+![Scatter Plot](images/ScatterPlot.png)
+### &nbsp;&nbsp; Regression Line
+![Regression Line](images/regressionline.png)
