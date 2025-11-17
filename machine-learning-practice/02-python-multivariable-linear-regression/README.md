@@ -8,6 +8,15 @@ This repository contains 2 projects:
   2. **Salary Prediction Model (Independent Practice)** — predicting candidate salary based on experience, test score, and interview score  
 ---
 
+## Highlights:
+- Data cleaning (e.g., converting text scores like `"zero"`, `"five"` → numeric values)  
+- Fitting a multiple linear regression model  
+- Predicting salary/home price based on features  
+- Interpreting coefficients  
+- Visualizing
+
+---
+
 ## Overview of Projects
 ### 1. **House Price Prediction Model**
 A supervised machine learning regression model that predicts house price (USD) from:
@@ -32,13 +41,6 @@ A supervised machine learning regression model that predicts salary from:
 salary = b_0 + b_1(experience) + b_2(test\_score) + b_3(interview\_score)
 \]
 
----
-## Highlights:
-- Data cleaning (e.g., converting text scores like `"zero"`, `"five"` → numeric values)  
-- Fitting a multiple linear regression model  
-- Predicting salary/home price based on features  
-- Interpreting coefficients  
-- Visualizing
 ---
 
 ## Visualization
