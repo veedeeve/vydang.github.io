@@ -27,13 +27,13 @@ A supervised machine learning regression model that predicts salary from:
 - `test_score(out of 10)`  
 - `interview_score(out of 10)`
 
-### Model Equation:
+#### Model Equation:
 \[
 salary = b_0 + b_1(experience) + b_2(test\_score) + b_3(interview\_score)
 \]
 
 ---
-### Highlights:
+## Highlights:
 - Data cleaning (e.g., converting text scores like `"zero"`, `"five"` → numeric values)  
 - Fitting a multiple linear regression model  
 - Predicting salary/home price based on features  
