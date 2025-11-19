@@ -16,6 +16,7 @@ mamba install -c bioconda trimmomatic
 mamba install -c bioconda spades
 mamba install -c bioconda blast
 mamba install -c prokka
+mamba install -c quast
 
 #grab .sra data
 prefetch SRR15202685
@@ -33,21 +34,16 @@ mv thermocellum_R* ../ && cd ../
 fastqc thermocellum_R1.fastq thermocellum_R2.fastq
 
 #trimmomatic
-trimmomatic PE thermocellum_R1.fastq thermocellum_R2.fastq thermocellum_R1_paired.fastq thermocellum_R1_unpaired.fastq thermocellum_R2_paired.fastq thermocellum_R2_unpaired.fastq LEADING:10 TRAILING:20 SLIDINGWINDOW:4:20 MINLEN:100
+trimmomatic PE thermocellum_R1.fastq thermocellum_R2.fastq thermocellum_R1_paired.fastq thermocellum_R1_unpaired.fastq thermocellum_R2_paired.fastq thermocellum_R2_unpaired.fastq LEADING:20 TRAILING:20 SLIDINGWINDOW:4:25 MINLEN:50
 
 #quality check
 fastqc thermocellum_R1_paired.fastq thermocellum_R2_paired.fastq
 
-#spades assembly -- error correction
-spades.py -1 thermocellum_R1_paired.fastq -2 thermocellum_R2_paired.fastq -o spades_corrected --only-error-correction 
+#spades careful - default k-mer (21, 33, 55, 77)
+spades.py --careful -1 thermocellum_R1_paired.fastq -2 thermocellum_R2_paired.fastq -o spades_careful
 
-mv spades_corrected/corrected/thermocellum_R* ./
-
-#spades assembly
-spades.py -1 thermocellum_R1_paired.00.0_0.cor.fastq.gz  -2 thermocellum_R2_paired.00.0_0.cor.fastq.gz -o spades_assembly --only-assembler
-
-#spades careful
-spades.py -k 21,33,55,77,99,127 --careful --only-assembler -1 thermocellum_R1_paired.00.0_0.cor.fastq.gz -2 thermocellum_R2_paired.00.0_0.cor.fastq.gz -o spade_careful
+#spades default
+spades.py -1 thermocellum_R1_paired.fastq -2 thermocellum_R2_paired.fastq -o spades_default
 
 #download reference annotated genome
 wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/015/865/GCF_000015865.1_ASM1586v1/GCF_000015865.1_ASM1586v1_genomic.gff.gz >%> mv GCF_000015865.1_ASM1586v1_genomic.gff.gz thermocellum_anno_ref_genome.gff.gz
