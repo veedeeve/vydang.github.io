@@ -1,6 +1,9 @@
 # Genome Assembly of Cellulomonas fimi
 This project demonstrates a complete workflow for **de novo genome assembly and annotation** of *Cellulomonas fimi* using publicly available sequencing data (SRA: DRR099963). The pipeline includes **quality control, genome assembly, protein prediction, and functional annotation**.
 
+## Background:
+The genome data used is from a genome sequencing project and was obtained using Illumina MiSeq paired end sequencing.
+
 ## Results 
 **Assembly Statistics (Spades_Careful):**
 - N50:  `____ kb`
