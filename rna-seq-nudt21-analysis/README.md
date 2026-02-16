@@ -1,5 +1,4 @@
 # NUDT21 RNA-seq Differential Expression Analysis
---
 ## Overview
 
 This project presents an end-to-end paired-end RNA-seq analysis pipeline investigating transcriptional changes following NUDT21 knockdown in Homo sapiens. The workflow covers raw data acquisition, quality control, trimming, genome alignment, gene quantification, and differential expression analysis.
@@ -33,3 +32,21 @@ Gene expression is compared between:
 4. Alignment (HISAT2 + Samtools)
 5. Quantification (featureCounts)
 6. Differential expression (DESeq2)
+
+## Repository Structure
+```text
+├── scripts/
+│   ├── pipeline.sh
+│   ├── deseq2_analysis.R
+│
+├── metadata/
+│   ├── sample_info.csv
+│   ├── runinfo.csv
+│
+├── results/
+│   ├── qc/
+│   ├── figures/
+│   ├── tables/
+│
+├── README.md
+└── .gitignore
