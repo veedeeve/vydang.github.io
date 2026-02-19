@@ -3,7 +3,7 @@ This project demonstrates a complete workflow for **de novo genome assembly and 
 
 ## Results 
 **Assembly Statistics (Spades_Careful):**
-- N50:  `37,784 kb`
+- N50:  `37,784 bp`
 - Total assembly length: `3,470,289`
 - Genome fraction: `85.958%`
 - Misassemblies: `83`
