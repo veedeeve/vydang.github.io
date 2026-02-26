@@ -21,6 +21,7 @@ End-to-end RNA-seq analysis pipeline for NUDT21 knockdown including read QC, ali
 **Key results**
 - 11,450 genes significant (FDR < 0.05)
 - Ribosome biogenesis & RNA processing pathways strongly affected
+- Results suggest that NUDT21 regulates core proliferative and RNA-processing programs
 
 Tools: HISAT2, samtools, Subread, FastQC, MultiQC, Trimmomatic, featureCounts, ggplot2, Bioconductor, EnhancedVolcano, limma-voom, clusterProfiler
 
