@@ -4,7 +4,6 @@ Bioinformatics | Graduate Student
 I am a computational biology researcher building cross-disciplinary expertise in transcriptomics, structural bioinformatics, and high-performance data pipelines. My work focuses on developing workflows across multiple domains of bioinformatics while strengthening both biological insight and computational rigor.
 
 ## Current Focus
-- Differential RNA-seq analysis (NUDT21 knockdown)
 - Protein structure trajectory modeling
 
 ## Featured Projects
@@ -17,9 +16,9 @@ Tools: SPAdes, QUAST, Prokka, BLAST
 ---
 
 ### 🔬 RNA-Seq Differential Expression – NUDT21 Knockdown
-End-to-end paired-end RNA-seq analysis pipeline using SRA Toolkit, HISAT2, featureCounts, and DESeq2 to identify transcriptional changes following gene knockdown in Homo sapiens.
+End-to-end RNA-seq analysis pipeline for NUDT21 knockdown including read QC, alignment (HISAT2), quantification (featureCounts), differential expression (limma-voom), and GO-based Gene Set Enrichment Analysis (clusterProfiler) in Homo Sapiens
 
-Tools: Bash, HISAT2, Samtools, Subread, R
+Tools: HISAT2, samtools, Subread, FastQC, MultiQC, Trimmomatic, featureCounts, ggplot2, Bioconductor, EnhancedVolcano, limma-voom, clusterProfiler
 
 ---
 
