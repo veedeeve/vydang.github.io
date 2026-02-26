@@ -18,7 +18,13 @@ Tools: SPAdes, QUAST, Prokka, BLAST
 ### 🔬 RNA-Seq Differential Expression – NUDT21 Knockdown
 End-to-end RNA-seq analysis pipeline for NUDT21 knockdown including read QC, alignment (HISAT2), quantification (featureCounts), differential expression (limma-voom), and GO-based Gene Set Enrichment Analysis (clusterProfiler) in Homo Sapiens
 
+**Key results**
+- 11,450 genes significant (FDR < 0.05)
+- Ribosome biogenesis & RNA processing pathways strongly affected
+
 Tools: HISAT2, samtools, Subread, FastQC, MultiQC, Trimmomatic, featureCounts, ggplot2, Bioconductor, EnhancedVolcano, limma-voom, clusterProfiler
+
+[View the full GitHub repository](https://github.com/veedeeve/rna-seq-nudt21-functional-analysis)
 
 ---
 
