@@ -9,7 +9,7 @@ I am a computational biology researcher building cross-disciplinary expertise in
 
 ## Featured Projects
 
-### Genome Assembly and Annotation
+### :cherry_blossom: Genome Assembly and Annotation
 De novo genome assembly using short-read sequencing data followed by structural and functional annotation.
 
 **Key results**
@@ -26,8 +26,21 @@ De novo genome assembly using short-read sequencing data followed by structural 
 [View the full GitHub repository](https://github.com/veedeeve/thermocellum-genome-assembly)
 
 ---
+### :cherry_blossom: WGS Germline Human Variant Calling & Functional Annotation
+Germline variant discovery workflow following GATK Best Practices.
 
-### RNA-Seq Differential Expression – NUDT21 Knockdown
+**Key results**
+- Successful complete germline variant calling workflow using GATK4
+- Generated high-confidence SNP and INDEL callsets from aligned WGS data
+- Annotated variants using Funcotator to extract gene-level information
+
+**Tools:** GATK4, samtools, fastqc, bwa, multiQC
+
+[View the full GitHub repository](https://github.com/veedeeve/wgs-germline-variant-pipeline)
+
+---
+
+### :cherry_blossom: RNA-Seq Differential Expression – NUDT21 Knockdown
 End-to-end RNA-seq analysis pipeline for NUDT21 knockdown including read QC, alignment (HISAT2), quantification (featureCounts), differential expression (limma-voom), and GO-based Gene Set Enrichment Analysis (clusterProfiler) in Homo Sapiens
 
 **Key results**
