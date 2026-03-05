@@ -41,7 +41,7 @@ Germline variant discovery workflow following GATK Best Practices.
 ---
 
 ### :cherry_blossom: RNA-Seq Differential Expression – NUDT21 Knockdown
-End-to-end RNA-seq analysis pipeline for NUDT21 knockdown including read QC, alignment (HISAT2), quantification (featureCounts), differential expression (limma-voom), and GO-based Gene Set Enrichment Analysis (clusterProfiler) in Homo Sapiens
+End-to-end RNA-seq analysis pipeline for NUDT21 knockdown including gene set enrichment analysis.
 
 **Key results**
 - 11,450 genes significant (FDR < 0.05)
