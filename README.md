@@ -5,7 +5,6 @@ I am a computational biology researcher building cross-disciplinary expertise in
 
 ## Current Focus
 - Protein structure trajectory modeling
-- WGS Analysis: Variant Calling
 
 ## Featured Projects
 
@@ -13,13 +12,13 @@ I am a computational biology researcher building cross-disciplinary expertise in
 De novo genome assembly using short-read sequencing data followed by structural and functional annotation.
 
 **Key results**
-- A 3.49 Mb draft genome was assembled across 286 contigs, consistent with expected genome size for C. thermocellum.
+- A 3.49 Mb draft genome was assembled across 286 contigs, consistent with expected genome size for *C. thermocellum*.
 - Prokka identified:
   - 2,981 coding sequences (CDS)
   - 55 tRNAs
   - 4 rRNAs
-  - 1 tmRNA
--726 high-confidence matches (24.35%) in BLASTP against Swiss-Prot
+  - 1 tmRNA  
+- 726 high-confidence matches (24.35%) in BLASTP against Swiss-Prot
 
 **Tools:** SPAdes, QUAST, Prokka, BLAST, FastQC, Trimmomatic
 
@@ -61,10 +60,12 @@ Trajectory inference of protein isoforms using RMSD-based clustering and structu
 
 ## Technical Skills
 
-**Languages:** Bash, Python, R  
-**Bioinformatics:** RNA-seq, alignment, gene quantification, differential expression  
-**Tools:** HISAT2, Samtools, featureCounts, FastQC, SRA Toolkit  
-**Computing:** Linux, HPC clusters, Conda environments  
-**Data Analysis:** DESeq2, PCA, clustering, statistical modeling
+| Category | Details |
+|---|---|
+| **Languages** | Bash, Python, R |
+| **Bioinformatics** | RNA-seq, alignment, gene quantification, differential expression |
+| **Tools** | HISAT2, Samtools, featureCounts, FastQC, SRA Toolkit |
+| **Computing** | Linux, HPC clusters, Conda environments |
+| **Data Analysis** | DESeq2, PCA, clustering, statistical modeling |
 
 
