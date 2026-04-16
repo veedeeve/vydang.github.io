@@ -12,13 +12,13 @@ I am a computational biology researcher building cross-disciplinary expertise in
 De novo genome assembly using short-read sequencing data followed by structural and functional annotation.
 
 **Key results**
-- A 3.49 Mb draft genome was assembled across 286 contigs, consistent with expected genome size for *C. thermocellum*.
+- A 3.45 Mb draft genome was assembled across 100 contigs, consistent with expected genome size for *C. thermocellum*.
 - Prokka identified:
-  - 2,981 coding sequences (CDS)
-  - 55 tRNAs
+  - 2,980 coding sequences (CDS)
+  - 52 tRNAs
   - 4 rRNAs
   - 1 tmRNA  
-- 726 high-confidence matches (24.35%) in BLASTP against Swiss-Prot
+- 738 high-confidence matches (24.77%) in BLASTP against Swiss-Prot
 
 **Tools:** SPAdes, QUAST, Prokka, BLAST, FastQC, Trimmomatic
 
